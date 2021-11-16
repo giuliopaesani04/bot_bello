@@ -13,4 +13,8 @@ client.on("messageCreate", message => {
     if (message.content == "!comando") {
         message.channel.send("Ciao a tutti!")
     }
+
+    if (message.content == "!ciao") {
+        message.channel.send("ciao")
+    }
 })
